@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Esteh</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="shortcut icon" href="com.png" type="image/x-icon"/>
 </head>
+
 <body>
-    <p>ee</p>
+  <header class="navbar">
+    <div class="logo">Esteh</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Our Profile</a></li>
+        <li><a href="#feedback">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="welcome-message">
+    <h1>Hi, </h1>
+  </div>
+  
+  <hr/>
+
+  <section class="hero">
+    <div class="hero-images">
+      <div>
+        <img src="download.jpg" alt="CEO" />
+        <p>CEO</p>
+      </div>
+      <div>
+        <img src="h.jpg" alt="Senior Staff" />
+        <p>Karyawan senior</p>
+      </div>
+      <div>
+        <img src="y.jpg" alt="Junior Staff" />
+        <p>karyawan junior</p>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+
+  <section id="feedback">
+    <form id="FeedbackForm">
+      <h2>Kita butuh feedback kamu.</h2>
+      <input type="text" id="nama" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <textarea id="feedbackText" placeholder="Feedback" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="formOutput"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Esteh. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
